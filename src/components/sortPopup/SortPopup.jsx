@@ -18,7 +18,7 @@ const SortPopup = ({ items }) => {
     const handleOutsideClick = (e) => {
         // if (!e.composedPath().includes(sortRef.current)) {
         if (e.target.offsetParent !== sortRef.current) {
-            setVisiblePopup(false);
+            setVisiblePopup(false)
         }
     };
 
